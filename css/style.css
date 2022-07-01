@@ -467,7 +467,7 @@ header .container {
 
 
 .hilight{
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsl(0, 0%, 97%);
   padding: auto;
 }
 .hilight h3{
@@ -475,7 +475,7 @@ header .container {
 }
 
 .hilight1 img{
-  width: 20%;
+  width: 15%;
   padding: 5px;
 }
 
