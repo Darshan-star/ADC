@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADC || Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./img/ADC-Logo.jpg" type="image">
+  <!-- Swiper CSS || For team slider -->
+        <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./css/slider-style.css">
+
+    <style>
+      .about{
+        padding: 70px;
+        background-image: url('./img/about.jpg');
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-bottom: 20%;
+        cursor: text;
+
+}
+    </style>
   </head>
   <body>
     <main>
@@ -75,9 +91,321 @@
       </div>
     </main>
 
+
+    <!-- hilights -->
+    <div class="hilight">
+      <h3>Over 50+ events successfully hosted</h3>
+      <div class="hilight1">
+        <img src="./img/google-cloud.png", width="100px">
+        <img src="./img/keploy.png", width="100px">
+        <img src="./img/gdg.png", width="100px">
+        <img src="./img/digital-ocean.png", width="100px">
+        <img src="./img/amazon.png", width="100px">
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div class="about">
+      <h5>LEARN WITH ALEXA</h5>
+      <h1> Our Community <br> supports learns like you</h1>
+      <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim</p>
+    </div>
+
+<!--       <div class="container1">
+        <div class="lines">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div> -->
+
+  
+  <div class="team">
+    <h1>Awesome faces behind <a>ADC</a></h1>
+    <p class="text2">Gravida nisi aliquam feugiat pellentesque <br> odio mi nunc adipiscing tellus facilisis</p>
+
+<!--     <div class="slide-container">
+      <span class="slider-span" id="slider-span1"></span>
+      <span class="slider-span" id="slider-span2"></span>
+      <span class="slider-span" id="slider-span3"></span>
+      <span class="slider-span" id="slider-span4"></span>
+      <span class="slider-span" id="slider-span5"></span>
+      <span class="slider-span" id="slider-span6"></span>
+      <span class="slider-span" id="slider-span7"></span>
+
+      <div class="image-slider">
+        <div class="slide-div" id="slide-1">
+          <img src="./img/jasneet-mam.jpeg" alt="" class="img1", id="img1">
+          <a href="#slider-span1" class="button11" id="button-1"></a>
+        </div>
+
+        <div class="slide-div" id="slide-2">
+          <img src="./img/Yana.jpg" alt="" class="img1", id="img2">
+          <a href="#slider-span2" class="button11" id="button-2"></a>
+        </div>
+
+        <div class="slide-div" id="slide-3">
+          <img src="./img/vaibhav.png" alt="" class="img1", id="img3">
+          <a href="#slider-span3" class="button11" id="button-3"></a>
+        </div>
+
+        <div class="slide-div" id="slide-4">
+          <img src="./img/parul.jpg" alt="" class="img1", id="img4">
+          <a href="#slider-span4" class="button11" id="button-4"></a>
+        </div>
+
+        <div class="slide-div" id="slide-5">
+          <img src="./img/PHOTO.jpg" alt="" class="img1", id="img5">
+          <a href="#slider-span5" class="button11" id="button-5"></a>
+        </div>
+
+        <div class="slide-div" id="slide-6">
+          <img src="./img/akshita.jpg" alt="" class="img1", id="img6">
+          <a href="#slider-span6" class="button11" id="button-6"></a>
+        </div>
+
+        <div class="slide-div" id="slide-7">
+          <img src="./img/shravan.jpg" alt="" class="img1", id="img7">
+          <a href="#slider-span7" class="button11" id="button-7"></a>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+
+  <div class="container">
+  <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                  <!-- Team -->
+                  <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                              <img src="img/jasneet-mam.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Jasneet Ma'am</h2>
+                            <p class="description">Team Head</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                              <img src="img/vaibhav.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Vaibhav Singh</h2>
+                            <p class="description">Team Leader</p>
+                            <a href="https://www.linkedin.com/in/vaibhav-singh-7032301ab/"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                  <!-- Team Card 1 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                              <img src="img/Yana.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Yana Srivastava</h2>
+                            <p class="description">Team Leader</p>
+                            <a href="https://www.linkedin.com/in/yana-srivastava-041a351ba/"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 2 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                              <img src="img/navjot.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Navjot Singh</h2>
+                            <p class="description">Technical Manager</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 3 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/parul.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Parul Gogia</h2>
+                            <p class="description">Social Media Handler</p>
+
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 4 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/anand.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Anand Kumar</h2>
+                            <p class="description">Graphic Designer</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 5 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/ansh.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Ansh Chawla</h2>
+                            <p class="description">Web Developer</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 6 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/shravan.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Shravan</h2>
+                            <p class="description">Technical Manager</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 7 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/akshita.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Akshita</h2>
+                            <p class="description">Content Creator</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 8 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/vidhi.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Vidhi</h2>
+                            <p class="description">Anchor</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 9 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/PHOTO.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Darshan</h2>
+                            <p class="description">Web Developer</p>
+                            <a href="https://www.linkedin.com/in/darshan-yadav-9496b0201/"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 10 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/lavanye.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Lavanye Gupta</h2>
+                            <p class="description">Content Creator</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 11 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/anurag.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Anurag Yadav</h2>
+                            <p class="description">Graphic Designer</p>
+                            <a href="#"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 12 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                              <img src="img/rajat.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Rajat</h2>
+                            <p class="description">Team Leader</p>
+                            <a href="https://www.linkedin.com/in/yana-srivastava-041a351ba/"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                    <!-- Team Card 13 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                              <img src="img/amar.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Amar</h2>
+                            <p class="description">Team Leader</p>
+                            <a href="https://www.linkedin.com/in/yana-srivastava-041a351ba/"><button class="button">Contact</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+      </div>
+  </section>
+
+
     <!-- JavaScript Files -->
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script src="./app.js"></script>
+    <script src="./js/app.js"></script>
+
+  <!-- Swiper JS || For Team slider-->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
